@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;700&display=swap");
 .tabs {
-  position: relative; /* Относительное позиционирование */
+  position: relative;
   margin: 0 auto;
   max-width: 1170px;
 }
 .tab,
 .tab-title {
-  display: inline-block; /* Выстраиваем по горизонтали */
+  display: inline-block;
   border: none;
   min-width: 201px;
 }
@@ -27,21 +27,19 @@
   display: none;
 }
 .tab-title {
-  background: white; /* Цвет фона */
-  padding: 5px 10px; /* Поля вокруг текста */
-  /* border: 1px solid #666; Параметры рамки */
-  border-bottom: none; /* Снизу линию убираем */
+  background: white;
+  padding: 5px 10px;
+  border-bottom: none;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   text-align: center;
 }
 .tab-content {
-  position: absolute; /* Абсолютное позиционирование */
-  border: 1px solid #c6cbcd; /* Параметры рамки */
-  left: 0; /* Размещаем у левого края */
-  /* width: calc(100% - 20px); Ширина содержимого */
-  display: none; /* Прячем вкладку */
+  position: absolute;
+  border: 1px solid #c6cbcd;
+  left: 0;
+  display: none;
   max-width: 1170px;
   max-height: 500px;
   min-width: 1170px;
@@ -49,10 +47,11 @@
   padding: 0;
 }
 .tab :checked + .tab-title {
-  position: relative; /* Относительное позиционирование */
-  background: white; /* Цвет фона */
-  top: 1px; /* Сдвигаем вниз */
-  z-index: 1; /* Отображаем поверх содержимого */ border-top-left-radius: 5px;
+  position: relative;
+  background: white;
+  top: 1px;
+  z-index: 1; 
+  border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border: solid 1px #c6cbcd;
   border-bottom: solid white;
@@ -60,7 +59,7 @@
   font-size: 14px;
 }
 .tab :checked ~ .tab-content {
-  display: block; /* Показываем активную вкладку */
+  display: block;
 }
 .row__item {
   display: flex;
