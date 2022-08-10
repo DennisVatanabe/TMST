@@ -3,6 +3,7 @@
   position: relative;
   margin: 0 auto;
   max-width: 1170px;
+  margin-top: 100px;
 }
 .tab-title {
   cursor: pointer;
@@ -57,6 +58,8 @@
   border-bottom: solid white;
   font-family: "Open Sans";
   font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 9px;
 }
 .tab :checked ~ .tab-content {
   display: block;
