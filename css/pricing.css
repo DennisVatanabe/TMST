@@ -1,0 +1,107 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    min-height: 900px;
+}
+.pricing__box {
+    padding-top: 50px;
+}
+.pricing__option {
+    background-color: #F5F5F5;
+    margin-bottom: 1000px;
+}
+.pricing-option__title {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    height: 150px;
+}
+.pricing-option__title::after {
+    content: "";
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    display: block;
+    padding-bottom: 0;
+    margin: 50px 0 0 500px;
+}
+.pricing-option__sub-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    text-align: center;
+    margin: -20px 0 70px 0;
+}
+.pricing__title {
+    width: 370px;
+    height: 60px;
+    background-color: black;
+    border-bottom: solid white 2px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.pricing__cost {
+    width: 370px;
+    height: 100px;
+    background-color: black;
+    border-bottom: solid white 2px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+.pricing__feed {
+    width: 370px;
+    height: 50px;
+    background-color: black;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 15px;
+}
+li {
+    width: 370px;
+    height: 50px;
+    background-color: white;
+    margin-top: 1px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    text-align: center;
+    padding: 15px;
+}
+.section__select {
+    display: flex;
+    justify-content: space-between;
+}
+.pricing__coloumn {
+    position: relative;
+}
+.pricing__coloumn:hover {
+    cursor: pointer;
+    box-shadow: #dbdddf 0 2px 5px 2px;
+    top: -20px;
+}
