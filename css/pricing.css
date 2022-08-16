@@ -12,7 +12,7 @@
 .pricing-option__title {
     text-align: center;
     margin-top: 50px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -28,7 +28,7 @@
     margin: 50px 0 0 500px;
 }
 .pricing-option__sub-title {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -38,9 +38,8 @@
     margin: -20px 0 70px 0;
 }
 .pricing__title {
-    width: 370px;
     height: 60px;
-    background-color: black;
+    background-color: #333333;
     border-bottom: solid white 2px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -52,11 +51,10 @@
     padding: 10px;
 }
 .pricing__cost {
-    width: 370px;
     height: 100px;
-    background-color: black;
+    background-color: #333333;
     border-bottom: solid white 2px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -66,10 +64,9 @@
     padding: 25px;
 }
 .pricing__feed {
-    width: 370px;
     height: 50px;
-    background-color: black;
-    font-family: 'Raleway';
+    background-color: #333333;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -79,11 +76,10 @@
     padding: 15px;
 }
 li {
-    width: 370px;
     height: 50px;
     background-color: white;
     margin-top: 1px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -92,14 +88,15 @@ li {
     text-align: center;
     padding: 15px;
 }
-.section__select {
+.pricing__select {
     display: flex;
     justify-content: space-between;
 }
-.pricing__coloumn {
+.pricing__column {
     position: relative;
+    width: 370px;
 }
-.pricing__coloumn:hover {
+.pricing__column:hover {
     cursor: pointer;
     box-shadow: #dbdddf 0 2px 5px 2px;
     top: -20px;

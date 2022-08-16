@@ -1,7 +1,7 @@
 
 .reviews__title {
     margin-top: 100px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -21,7 +21,7 @@
     transform: translate(-50%, 0);
 }
 .reviews__text {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
@@ -53,18 +53,18 @@
 .reviews__message::after {
     content: "";
     position: absolute;
-    border: 20px solid transparent;
-    border-top: 20px solid #E2E2E2;
+    border: 17px solid transparent;
+    border-top: 24px solid #E2E2E2;
     bottom: -40px;
     left: 70px;
 }
-.reviews__avtor {
+.reviews__autor {
     display: flex;
 }
-.reviews__avtor-img {
-    margin-right: 30px;
+.reviews__autor-img {
+    margin: 0 30px 30px 0;
 }
-.reviews__avtor-name {
+.reviews__autor-name {
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 24px;
@@ -73,8 +73,8 @@
     text-transform: capitalize;
     margin-bottom: 30px;
 }
-.reviews__avtor-manager {
-    font-family: 'Raleway';
+.reviews__autor-manager {
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     line-height: 21px;
     align-items: center;
