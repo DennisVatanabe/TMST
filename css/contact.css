@@ -1,0 +1,102 @@
+.contact__container {
+    max-width: 1170px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.contact__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.contact__main-title {
+    font-family: 'Raleway';
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+.contact__main-title::after {
+    content: "";
+    position: absolute;
+    width: 170px;
+    height: 1px;
+    background-color:#EC7979 ;
+    top: 210px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.contact__main-text {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #86878B;
+    margin-bottom: 50px;
+}
+.contact__form {
+    display: flex;
+    justify-content: space-between;
+}
+.contact__form-autorization {
+    display: flex;
+    flex-direction: column;
+}
+.contact__name-input, .contact__email-input, .contact__password-input {
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    color: #BDBDBD;
+    outline: none;
+    width: 570px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 20px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 40px;
+}
+.contact__message {
+    width: 570px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    color: #BDBDBD;
+    outline: none;
+    padding-top: 49px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+.contact__button {
+    width: 370px;
+    height: 58px;
+    border: none;
+    background: #ec7979;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 50px;
+}

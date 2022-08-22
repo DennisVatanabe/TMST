@@ -101,3 +101,8 @@ li {
     box-shadow: #dbdddf 0 2px 5px 2px;
     top: -20px;
 }
+li:hover {
+    transform: scale(1.05);
+    /* border: solid 1px #86878B; */
+    box-shadow: #dbdddf 1px 2px 2px 2px; 
+}

@@ -1,0 +1,73 @@
+.bunner2 {
+    background: url("../img/bunner2s.svg"), url("../img/bunner2.jpg");
+}
+.bunner2-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.bunner2__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bunner2__main-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+}
+.bunner2__main-title::after {
+    content: "";
+    position: absolute;
+    width: 170px;
+    height: 1px;
+    background-color: white;
+    bottom: -70px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.bunner2__main-text {
+    font-family: 'Raleway';
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 125px;
+    margin-bottom: 75px;
+}
+.bunner2__main-button {
+    width: 370px;
+    height: 58px;
+    border: solid 1px white;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+    cursor: pointer;
+    background: transparent;
+    margin: 0 auto;
+}
+.bunner2__main-button:hover {
+    border: solid 1px #EC7979;
+    color: #EC7979;
+    background: transparent;
+}
+.bunner2__main-button:active {
+    background: #AB4949;
+    border: 2px solid #AB4949;
+    color: white;
+}

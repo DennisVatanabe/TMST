@@ -1,0 +1,98 @@
+.social {
+    background: #F8EFEF;
+}
+.section__container {
+    max-width: 1170px;
+    height: 140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+.social__main {
+    display: flex;
+    flex-direction: column;
+}
+.social__main-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    padding-bottom: 30px;
+}
+.social__main-info {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    max-width: 470px;
+}
+.social__icons {
+    display: flex;
+    justify-content: space-between;
+    width: 690px;
+    max-height: 55px;
+}
+.social__icons:hover {
+    filter: brightness(1.1);
+    transition: 1s;
+}
+.facebook {
+    width: 30px;
+    height: 55px;
+}
+.facebook:hover {
+    fill: #4267b2 ;
+    transition: 1s;
+}
+.twitter {
+    width: 57px;
+    height: 46px;
+}
+.twitter:hover {
+    fill: #1da1f2 ;
+    transition: 1s;
+}
+.linkedin {
+    width: 52px;
+    height: 52px;
+}
+.linkedin:hover {
+    fill: #007b21;
+    transition: 1s;
+}
+.pinterest {
+    width: 58px;
+    height: 58px;
+}
+.pinterest:hover {
+    fill: #bd081c;
+    transition: 1s;
+}
+.instagram {
+    width: 52px;
+    height: 52;
+}
+.instagram:hover {
+    fill: #fcaf45;
+    transition: 1s;
+}
+.github {
+    width: 58px;
+    height: 57px;
+}
+.github:hover {
+    fill: #24292f;
+    transition: 1s;
+}
+.rss {
+    width: 45px;
+    height: 45px;
+}
+.rss:hover {
+    fill: #ee802f;
+    transition: 1s;
+}
