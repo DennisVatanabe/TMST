@@ -3,10 +3,10 @@
     background-size: cover;
 }
 .bunner__container {
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    padding-top: 220px;
+    padding: 220px 15px 0;
 }
 .bunner__main {
     display: flex;
