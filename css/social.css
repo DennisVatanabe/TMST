@@ -84,8 +84,10 @@
 .github {
     width: 58px;
     height: 57px;
+    padding: 0;
+    margin: 0;
 }
-.github:hover {
+.github:hover path {
     fill: #24292f;
     transition: 1s;
 }

@@ -13,7 +13,8 @@
     max-width: 183px;
     margin-left: 115px;
 }
-label[for="header__radio"]{
+/* label[for="header__radio"]{ */
+a {
     color: white;
     font-family: 'Open Sans';
     font-style: normal;
@@ -22,9 +23,12 @@ label[for="header__radio"]{
     line-height: 19px;
     text-align: center;
 }
-label:hover {
+a:hover {
     transform: scale(1.2);
     cursor: pointer;
+}
+a:active {
+    transition: 1s;
 }
 .header__radio {
     display: none;
