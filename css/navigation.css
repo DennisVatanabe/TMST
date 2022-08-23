@@ -13,7 +13,6 @@
     max-width: 183px;
     margin-left: 115px;
 }
-/* label[for="header__radio"]{ */
 a {
     color: white;
     font-family: 'Open Sans';
@@ -26,9 +25,6 @@ a {
 a:hover {
     transform: scale(1.2);
     cursor: pointer;
-}
-a:active {
-    transition: 1s;
 }
 .header__radio {
     display: none;

@@ -45,7 +45,7 @@
     width: 30px;
     height: 55px;
 }
-.facebook:hover {
+.facebook:hover path{
     fill: #4267b2 ;
     transition: 1s;
 }
@@ -53,7 +53,7 @@
     width: 57px;
     height: 46px;
 }
-.twitter:hover {
+.twitter:hover path{
     fill: #1da1f2 ;
     transition: 1s;
 }
@@ -61,7 +61,7 @@
     width: 52px;
     height: 52px;
 }
-.linkedin:hover {
+.linkedin:hover path{
     fill: #007b21;
     transition: 1s;
 }
@@ -69,7 +69,7 @@
     width: 58px;
     height: 58px;
 }
-.pinterest:hover {
+.pinterest:hover path{
     fill: #bd081c;
     transition: 1s;
 }
@@ -77,7 +77,7 @@
     width: 52px;
     height: 52px;
 }
-.instagram:hover {
+.instagram:hover path{
     fill: #fcaf45;
     transition: 1s;
 }
@@ -95,7 +95,7 @@
     width: 45px;
     height: 45px;
 }
-.rss:hover {
+.rss:hover path{
     fill: #ee802f;
     transition: 1s;
 }
