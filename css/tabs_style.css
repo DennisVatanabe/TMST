@@ -85,7 +85,7 @@ body {
   max-height: 500px;
   padding: 0;
 }
-.tab :checked + .tab-title {
+.tab :checked +.tab-title {
   position: relative;
   background: white;
   top: 1px;

@@ -27,9 +27,6 @@ a:hover {
     cursor: pointer;
     transition: 1s;
 }
-.header__radio {
-    display: none;
-}
 .header__menu {
     display: flex;
     min-width: 570px;
